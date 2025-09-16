@@ -1,14 +1,18 @@
 const config = require('./src/config');
 
 module.exports = {
-  siteMetadata: {
-    title: 'Brittany Chiang',
-    description:
-      'Brittany Chiang is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://brittanychiang.com', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
-  },
+siteMetadata: {
+  title: "Conall Komenda",
+  siteUrl: "https://<your-domain>",
+  description: "CBS 27 — Product Manager focused on FinTech & AI.",
+    social: {
+      twitter: "",
+      linkedin: "https://www.linkedin.com/in/conallkomenda/",
+      github: "https://github.com/conallkomenda",
+      email: "ckomenda27@gsb.columbia.edu",
+      resume: "/resume.pdf"
+  }
+}
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
